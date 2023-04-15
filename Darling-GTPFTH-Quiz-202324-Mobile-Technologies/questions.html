@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz1</title>
+</head>
+
+<body id="questionScreenBody">
+
+  <section id="questionSection">
+    <h1>Guess The Player From Their Hair</h1>
+      <p class="questionScreen" data-question-number="1"><img src="Aguero-1.jpg">
+      <span>Lionel Messi</span>
+      <span>Neymar Jr</span>
+      <span class="correct">Sergio Aguero</span>
+    </p>
+      <p class="questionScreen" data-question-number="2"><img src="De-Bruyne-2.jpg">
+      <span class="correct">Kevin De Bruyne</span>
+      <span>Marko Arnautović</span>
+      <span>Samir Nasri</span>
+    </p>
+      <p class="questionScreen" data-question-number="3"><img src="Eden-Hazard.jpg">
+      <span>Declan Rice</span>
+      <span class="correct">Eden Hazard</span>
+      <span>Phil Foden</span>
+    </p>
+      <p class="questionScreen" data-question-number="4"><img src="Aubs.jpg">
+      <span class="correct">Aubameyang</span>
+      <span>Mario Ballotelli</span>
+      <span>Reece James</span>
+    </p>
+      <p class="questionScreen" data-question-number="5"><img src="Bellerin.jpg">
+      <span class="correct">Hector Bellerin</span>
+      <span>Antoine Griezmann</span>
+      <span>Adrien Rabiot</span>
+    </p>
+      <p class="questionScreen" data-question-number="6"><img src="adama.jpg">
+      <span>Djibrill Cisse</span>
+      <span class="correct">Adama Traore</span>
+      <span>Kylian Mbappe</span>
+    </p>
+      <p class="questionScreen" data-question-number="7"><img src="11.Wilson-1.jpg">
+      <span>Jude Bellingham</span>
+      <span>Jacob Ramsey</span>
+      <span class="correct">Callum Wilson</span>
+    </p>
+      <p class="questionScreen" data-question-number="8"><img src="9.-Jimenez.jpg">
+      <span>Oscar</span>
+      <span class="correct">Raul Jimenez</span>
+      <span>James Rodriguez</span>
+    </p>
+      <p class="questionScreen" data-question-number="9"><img src="Pogba-2.jpg">
+      <span>Alex Song</span>
+      <span>Marcus Rashford</span>
+      <span class="correct">Paul Pogba</span>
+    </p>
+      <p class="questionScreen" data-question-number="10"><img src="Salah-1.jpg">
+      <span>Mohammed Elneny</span>
+      <span>Omar Marmoush</span>
+      <span class="correct">Mo Salah</span>
+    </p>
+  </section>
+
+  <section id="scoreSection">
+    <p>Score <span id="scoreTally">0</span>/10</p>
+  </section>
+
+  <section id="finishedScreen">
+    <p>Quiz complete! How did you think you've done?</p>
+    <button id="retakeBtn" class="ovalButton"><a href="questions.html">RETAKE</a></button>
+    <button id="answersBtn"><a href="answers.html">ANSWERS</a></button>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+  <script type="text/javascript" src="quiz.js"></script>
+
+</body>
+
+</html>
